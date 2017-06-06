@@ -1,5 +1,9 @@
 import React from 'react'
 
-export default props =>(
-    <h1>{props.value}</h1>
+const Primeiro = props =>(
+    <h1>Olha o que ele fez!</h1>
 )
+
+const Segundo = props => <h1>Hoje não!</h1>
+
+export{Primeiro, Segundo}
