@@ -1,0 +1,30 @@
+{
+  "name": "udemy-react-secao3-ex1",
+  "version": "1.0.0",
+  "description": "Exercício 01 do curso de react do Udemy.",
+  "main": "index.js",
+  "scripts": {
+    "dev":"webpack-dev-server --progress --colors --inline --hot"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/divertoso/udemy-react-secao3-ex1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/divertoso/udemy-react-secao3-ex1/issues"
+  },
+  "homepage": "https://github.com/divertoso/udemy-react-secao3-ex1#readme",
+  "devDependencies": {
+    "babel-core": "^6.22.1",
+    "babel-loader": "^6.2.10",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-react": "^6.22.0",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "webpack": "^1.14.0",
+    "webpack-dev-server": "^1.16.2"
+  }
+}
