@@ -4,7 +4,7 @@ import ClassComponent from './classComponent'
 
 ReactDOM.render(
 
-    <ClassComponent value='Componente Classe'></ClassComponent>
+    <ClassComponent value={1} />
 
     , document.getElementById('app')
 )
