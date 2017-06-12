@@ -3,11 +3,8 @@ import React, {Component} from 'react'
 export default class ClassComponent extends Component{
     
      constructor(props){
-       
-       //se não chamar o super() vai dar erro
        super(props);
        this.state = {value: props.initialValue}
-
 
     }
 
@@ -17,11 +14,12 @@ export default class ClassComponent extends Component{
     
     render(){
         return(
-            /**
-             * a props foi preenchida no index, quando o componente foi 
-             * chamado : <ClassComponent value='Componente Classe' />
-             */
-            <h1>{this.props.value}</h1>
+            <div>
+                <h1>{this.props.label}</h1>
+                <h2>{this.state.value}</h2>
+                <button onClick={()=> this.sum(-1)}> dec </button>
+                <button onClick={()=> this.sum(1)}> inc </button>
+           </div>
         )//return
     }//render
 }
